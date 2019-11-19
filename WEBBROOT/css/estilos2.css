@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+    /*                font-size: 1.2em;*/
+}
+caption{
+    font-size: 30px;
+    color: red;
+}
+th{
+    background: aqua;
+}
+
+
+td{
+    padding: 5px;
+}
+

@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+    padding: auto;
+}
+
+.obligatorio input{
+    background-color: lightblue;
+}
+.obligatorio textarea{
+    background-color: lightblue;
+}
+li{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 15px;
+    background: aqua;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+li a:link{
+    text-decoration: none;
+}
+
+div a{
+    text-decoration: none;
+}
+.diva{
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.obligatorio select{
+    background-color: lightblue;
+}
+.obligatorio label{
+    text-decoration: underline;
+}
+.error{
+    background-color: #ff708c;
+    transition: 10s;
+    width: 10%;
+    padding: 0.5%;
+    border-radius: 10%;
+}
+
+input{
+    display: inline-block;
+/*    float: center;*/
+}
+
+/*.h2{
+    margin-top: 50px;
+
+}*/
+
+#enviar{
+    width: 200px;
+    background: aqua;
+    height: 30px;
+}
+.volver{
+    font-size: 24px;
+}
+
+#buscar{
+    height: 30px;
+    width: 400px;
+}
+
+caption{
+    font-size: 30px;
+    color: red;
+}
+th{
+    background: aqua;
+}
+
+td{
+    padding: 5px;
+}

@@ -1,0 +1,44 @@
+.obligatorio input{
+    background-color: lightblue;
+}
+.obligatorio textarea{
+    background-color: lightblue;
+}
+.obligatorio select{
+    background-color: lightblue;
+}
+.obligatorio label{
+    text-decoration: underline;
+}
+.error{
+    background-color: #ff708c;
+    transition: 10s;
+    width: 10%;
+    padding: 0.5%;
+    border-radius: 10%;
+}
+*{
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+    /*                font-size: 1.2em;*/
+}
+
+.a1{
+    font-size: 36px;
+}
+caption{
+    font-size: 30px;
+    color: red;
+}
+th{
+    background: aqua;
+}
+.h1{
+    margin-top: 50px;
+}
+
+td{
+    padding: 5px;
+}
+

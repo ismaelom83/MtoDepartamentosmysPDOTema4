@@ -1,0 +1,25 @@
+*{
+    text-align: center;
+     box-sizing: border-box;
+    margin: auto;
+}
+h4{
+    color: red;
+    font-size: 30px;
+}
+h1{
+    font-size: 36px;
+}
+caption{
+    font-size: 30px;
+    color: red;
+}
+th{
+    background: aqua;
+}
+
+
+td{
+    padding: 5px;
+}
+

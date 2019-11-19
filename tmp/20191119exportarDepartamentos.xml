@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Departamentos>
+  <departamento>
+    <codDepartamento>DAW</codDepartamento>
+    <descDepartamento>Despliege de aplicaciones WEB</descDepartamento>
+  </departamento>
+  <departamento>
+    <codDepartamento>DIW</codDepartamento>
+    <descDepartamento>Desarrollo interfaces WEB</descDepartamento>
+  </departamento>
+  <departamento>
+    <codDepartamento>DWEC</codDepartamento>
+    <descDepartamento>Desarrollo WEB entorno cliente</descDepartamento>
+  </departamento>
+  <departamento>
+    <codDepartamento>DWES</codDepartamento>
+    <descDepartamento>Desarrollo WEB entorno servidor</descDepartamento>
+  </departamento>
+  <departamento>
+    <codDepartamento>EIE</codDepartamento>
+    <descDepartamento>Empresa e inciativa Emprendedora</descDepartamento>
+  </departamento>
+</Departamentos>

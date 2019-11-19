@@ -1,0 +1,17 @@
+*{
+    text-align: center;
+     box-sizing: border-box;
+    margin: auto;
+}
+h1,h2{
+    margin-top: 50px;
+}
+
+a{
+    font-size: 30px;
+}
+
+h4{
+    color: red;
+    font-size: 30px;
+}

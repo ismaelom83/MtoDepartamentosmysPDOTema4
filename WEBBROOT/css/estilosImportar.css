@@ -1,0 +1,36 @@
+*{
+    text-align: center;
+     box-sizing: border-box;
+    margin: auto;
+}
+h1,h2{
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+a{
+    font-size: 30px;
+}
+
+li{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 50px;
+    background: aqua;
+    margin-top: 5px;
+    padding: 10px;
+    
+}
+li a{
+    color: white;
+}
+.si{
+    background: green;
+}
+.no{
+    background: red;
+}
+
+li a:link{
+    text-decoration: none;
+}
