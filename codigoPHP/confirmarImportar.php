@@ -21,7 +21,7 @@ and open the template in the editor.
          */
         
         echo "<h1>Estas seguro que quieres importar la base de datos</h1>";
-        echo '<li class="si"><a href="ejercicio7PDOxml.php">SI</a></li>'; 
+        echo '<li class="si"><a href="ejercicio7PDOjson.php">SI</a></li>'; 
         echo '<li class="no"><a href="MtoDepartamentosmysPDOTema4.php">NO</a></li>'; 
         ?>
     </body>
