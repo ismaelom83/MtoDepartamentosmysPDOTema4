@@ -74,7 +74,7 @@ and open the template in the editor.
             }
             ?>
             
-            <li><a href="ejercicio3PDO.php">AÑADI</a></li>
+            <li><a href="ejercicio3PDO.php">AÑADIR</a></li>
             <li><a href="confirmarExportar.php">EXPORTAR</a></li>
             <li><a href="confirmarImportar.php">IMPORTAR</a></li> 
             <br>
