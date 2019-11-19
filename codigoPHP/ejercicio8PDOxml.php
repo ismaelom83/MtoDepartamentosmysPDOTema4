@@ -45,6 +45,7 @@ and open the template in the editor.
                 $departamento = $elementoHijo->appendChild($archivoXML->createElement("departamento"));
                 $codDepartamento = $departamento->appendChild($archivoXML->createElement("codDepartamento", $registroDepartamentos->CodDepartamento));
                 $descDepart = $departamento->appendChild($archivoXML->createElement("descDepartamento", $registroDepartamentos->DescDepartamento));
+                
             }
             //copia el arbol interno a un string.
             $archivoXML->saveXML();

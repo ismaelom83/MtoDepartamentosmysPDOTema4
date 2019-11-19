@@ -1,44 +1,55 @@
-.obligatorio input{
-    background-color: lightblue;
-}
-.obligatorio textarea{
-    background-color: lightblue;
-}
-.obligatorio select{
-    background-color: lightblue;
-}
-.obligatorio label{
-    text-decoration: underline;
-}
-.error{
-    background-color: #ff708c;
-    transition: 10s;
-    width: 10%;
-    padding: 0.5%;
-    border-radius: 10%;
-}
-*{
-    box-sizing: border-box;
-    margin: auto;
-    text-align: center;
-    /*                font-size: 1.2em;*/
+
+
+
+
+.form-control{
+    width: 90%;
+
 }
 
-.a1{
+h1,h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a{
+    position: absolute;
+    top: 250px;
+    left: 600px;
     font-size: 36px;
 }
-caption{
-    font-size: 30px;
-    color: red;
+
+fieldset{
+    width: 100%;
+    border: solid 2px blue;
+    padding: 15px; 
+    border-radius: 10px;
 }
-th{
-    background: aqua;
+.error{
+    text-align: center;
+    display: inline-block;
+    color: #ff708c;
+    float: right;
+    width: 100%;        
+    border-radius: 10%;
 }
-.h1{
-    margin-top: 50px;
+.wrap{
+    width: 50%;
+    margin: auto;
+    max-width: 500px;
+    margin: auto;
 }
 
-td{
-    padding: 5px;
+legend {
+
+    text-align: center;
+    font-size: 36px;
+    color: brown;
 }
+
+.botones input{
+    width: 100%;  
+}
+
 

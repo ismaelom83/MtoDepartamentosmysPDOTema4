@@ -34,6 +34,9 @@ and open the template in the editor.
                     <li class="nav-item">
                         <a class="nav-link" href="../../../proyectoDIW/DIW.php">DIW</a>
                         </li>
+                        <div class="crud">
+                            <p >CRUD De Ismael</p>
+                        </div>
                         
                 </ul >
 
@@ -46,7 +49,7 @@ and open the template in the editor.
             <?php
             /**
               @author Ismael Heras Salvador
-              @since 6/11/2019
+              @since 18/11/2019
              */
             require '../core/validacionFormularios.php'; //importamos la libreria de validacion  
             require '../config/constantes.php'; //requerimos las constantes para la conexion
@@ -70,31 +73,21 @@ and open the template in the editor.
                 $entradaOK = false;
             }
             ?>
-            <h1>CRUD De Ismael</h1>
+            
             <li><a href="ejercicio3PDO.php">AÑADIR</a></li>
             <li><a href="confirmarExportar.php">EXPORTAR</a></li>
             <li><a href="confirmarImportar.php">IMPORTAR</a></li> 
             <br>
             <br>
             <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-                <fieldset>
-                    <div class="obligatorio">
-                        BUSCAR DEPARTAMENTOS: 
+                <fieldset>                  
+                       BUSCAR DEPARTAMENTOS: 
                         <input type="text" name="DescDepartamentos" placeholder="Introduce coincidencia con descripcion" id="buscar" value="<?php
                         if ($aErrores['DescDepartamentos'] == NULL && isset($_POST['DescDepartamentos'])) {
                             echo $_POST['DescDepartamentos'];
                         }
-                        ?>"><br> <!--//Si el valor es bueno, lo escribe en el campo-->
-                               <?php if ($aErrores['DescDepartamentos'] != NULL) { ?>
-                            <div class="error">
-                                <?php echo $aErrores['DescDepartamentos']; //Mensaje de error que tiene el array aErrores        ?>
-                            </div>   
-                        <?php } ?>                
-                    </div>
-
-                    <div>
-                        <input type="submit" name="enviar" value="Buscar" id="enviar">
-                    </div>
+                        ?>"                                               
+                        <input type="submit" name="enviar" value="Buscar" id="enviar">                 
                 </fieldset>
             </form> 
 
@@ -115,7 +108,7 @@ and open the template in the editor.
                     $sentencia->execute();
                     //guardamos en una variable la instruccion sql
                     $resultadoConsulta = $miDB->query($sql);
-                    echo "<h2>" . "Coincidencias de busqueda" . "</h2>";
+                    echo "<h3>" . "Coincidencias de busqueda" . "</h3>";
 
                     //if que se utiliza para mostrar la consulta o si el rowCount es 0 se ejecuta la consulta original para mostrar todos los registros
                     if ($resultadoConsulta->rowCount() != 0) {
@@ -143,8 +136,8 @@ and open the template in the editor.
                             $miDB2 = new PDO(MAQUINA, USUARIO, PASSWD);
                             //mensaje por pantalla que todo ha ido bien
                             $miDB2->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-                            echo "<h2>" . "Sin coincidencias de busqueda" . "</h2>";
-                            echo '<br>';
+                            echo "<h3>" . "Sin coincidencias de busqueda" . "</h3>";
+                           
 
                             //tabla para formatear la salida en formato tabla.
                             echo '<table border="1">';

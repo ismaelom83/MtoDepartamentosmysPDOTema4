@@ -8,7 +8,11 @@
     box-sizing: border-box;
     font-family: 'Pacifico', cursive;
 }
-
+.crud{
+    margin-left: 100px;
+   display: inline-block;
+   float: right;
+}
 table{
     margin: 0 auto;
     padding: 10px;
@@ -47,6 +51,17 @@ table{
     font-size: 22px;
     color:brown;
 }
+
+#enviar{
+    display:inline-block;
+   
+}
+
+#buscar{
+   display:inline-block;
+    
+}
+
 
 footer {
   background-color: #e3f2fd;
