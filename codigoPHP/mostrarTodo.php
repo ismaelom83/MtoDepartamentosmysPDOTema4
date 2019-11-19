@@ -43,8 +43,7 @@ and open the template in the editor.
     </header>
     <body>
         <main>
-            
-            <h1>Borrar el registro</h1>
+            <h1>Mostrar todos los campos del registro</h1>
             <?php
             /**
               @author Ismael Heras Salvador
@@ -87,8 +86,11 @@ and open the template in the editor.
 
                     //cierre de la conexion
                     unset($miDB2);
-                }                     
-            ?>          
+                }
+           
+          
+            ?>
+           
             <br/>
             <br/>
             <footer class="page-footer font-small blue load-hidden">

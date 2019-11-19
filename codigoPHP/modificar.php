@@ -44,7 +44,7 @@ and open the template in the editor.
     <body>
         <main>
             
-            <h1>Borrar el registro</h1>
+            <h1>Modificar los campos del registro</h1>
             <?php
             /**
               @author Ismael Heras Salvador

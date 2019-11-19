@@ -1,16 +1,78 @@
+
+
 *{
-    box-sizing: border-box;
-    margin: auto;
+    margin: 0;
+    padding: 0;
     text-align: center;
-    padding: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Pacifico', cursive;
 }
 
-.obligatorio input{
-    background-color: lightblue;
+table{
+    margin: 0 auto;
+    padding: 10px;
+    
 }
-.obligatorio textarea{
-    background-color: lightblue;
+.navbar-brand{
+    font-size: 36px; 
 }
+.navbar{      
+        height: 100px;
+        font-size: 36px;
+}
+.nav-item{   
+    margin-left: 30px;
+ 
+}
+
+.volver{
+    font-size: 34px;
+    color: red;
+}
+
+.h1{
+    text-align: right;
+    margin-right: 300px;
+}
+.div-navegador{
+    color: #503D39;
+}
+.card-text{
+    font-size: 18px;
+    color:black;
+}
+
+.card-title{
+    font-size: 22px;
+    color:brown;
+}
+
+footer {
+  background-color: #e3f2fd;
+  position: fixed;
+  bottom: 0;
+   width: 100%;
+  height: 100px;
+  color:black;
+  font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 li{
     display: inline-block;
     text-decoration: none;
@@ -22,8 +84,12 @@ li{
 
 li a:link{
     text-decoration: none;
+    
 }
-
+ footer a:link{
+    list-style: none;
+    text-decoration: none;
+}
 div a{
     text-decoration: none;
 }
@@ -33,13 +99,9 @@ div a{
     margin-right: 10px;
 }
 
-.obligatorio select{
-    background-color: lightblue;
-}
-.obligatorio label{
-    text-decoration: underline;
-}
+
 .error{
+    margin: 0 auto;
     background-color: #ff708c;
     transition: 10s;
     width: 10%;
@@ -49,32 +111,24 @@ div a{
 
 input{
     display: inline-block;
-/*    float: center;*/
+    float: center;
 }
 
-/*.h2{
-    margin-top: 50px;
 
-}*/
 
 #enviar{
     width: 200px;
     background: aqua;
     height: 30px;
 }
-.volver{
-    font-size: 24px;
-}
+
 
 #buscar{
     height: 30px;
     width: 400px;
 }
 
-caption{
-    font-size: 30px;
-    color: red;
-}
+
 th{
     background: aqua;
 }

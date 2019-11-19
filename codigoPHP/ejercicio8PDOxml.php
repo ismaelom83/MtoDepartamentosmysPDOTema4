@@ -56,7 +56,7 @@ and open the template in the editor.
             echo '<br>';
             echo "<a href='../tmp/$nombreArchivo'>Pulse aqui para comprobar el archivo xml descargado</a>";
             echo '<br>';
-            echo "<a href=''MtoDepartamentosmysPDOTema4>Volver al CRUD</a>";
+            echo "<a href='MtoDepartamentosmysPDOTema4.php'>Volver al CRUD</a>";
             //control de excepciones con la clase PDOException
         } catch (PDOException $miExceptionPDO) {
             //mostrar mensaje de errores
