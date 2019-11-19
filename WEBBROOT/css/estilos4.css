@@ -52,10 +52,10 @@ table{
     color:brown;
 }
 
-#enviar{
+/*#enviar{
     display:inline-block;
    
-}
+}*/
 
 #buscar{
    display:inline-block;
@@ -131,17 +131,13 @@ input{
 
 
 
-#enviar{
-    width: 200px;
-    background: aqua;
-    height: 30px;
-}
 
 
-#buscar{
+
+/*#buscar{
     height: 30px;
     width: 400px;
-}
+}*/
 
 
 th{

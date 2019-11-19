@@ -86,8 +86,10 @@ and open the template in the editor.
                         if ($aErrores['DescDepartamentos'] == NULL && isset($_POST['DescDepartamentos'])) {
                             echo $_POST['DescDepartamentos'];
                         }
-                        ?>"                                               
-                        <input type="submit" name="enviar" value="Buscar" id="enviar">                 
+                        ?>"> 
+                        
+                        <input type="submit" name="enviar" value="Buscar" id="enviar">       
+                        
                 </fieldset>
             </form> 
 
